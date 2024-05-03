@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:hsl(216, 12%, 8%);
+   
+}
+
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    height: 650px;
+}
+
+
+.container{
+       background-color: hsl(213, 19%, 18%);
+       display: flex;
+       flex-direction: column;
+       gap: 30px;
+       width: 400px;
+       height: 380px;
+       border-radius: 10px;
+       
+       
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+
+
+}
+
+.content{
+    color: hsl(216, 12%, 54%);
+    width: 350px;
+    margin-left: 10px;
+    margin-top: -20px;
+    line-height: 25px;
+}
+
+.how{
+    color: white;
+    font-size: 1cm;
+    margin-left: 10px;
+}
+
+.rating{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#one{
+    background-color: hsl(217, 12%, 63%);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+#two{
+    background-color: hsl(217, 12%, 63%);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+#three{
+    background-color: hsl(217, 12%, 63%);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+#four{
+    background-color: hsl(217, 12%, 63%);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+#five{
+    background-color: hsl(217, 12%, 63%);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+#summit{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkorange;
+    margin-left: 40px;
+    border-radius: 20px;
+    color: white;
+}

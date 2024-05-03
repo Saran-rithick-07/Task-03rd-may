@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+   <div class="parent">
+    <div class="main">    
+    <div class="container">
+   <div class="head">
+    <img  class="star"    src="images/icon-star.svg" alt="">
+   </div>
+   <div class="how"><b>How did we do?</b></div>
+  
+   <div class="content">
+  Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!
+  </div>
+   <div class="rating">
+   <div class="round"> <button onclick="get1()" id="one"> 1 </button>  </div>   
+   <div class="round"> <button onclick="get2()" id="two"> 2 </button> </div>   
+   <div class="round"><button onclick="get3()" id="three"> 3 </button> </div>   
+   <div class="round"><button onclick="get4()" id="four"> 4 </button> </div>   
+   <div class="round"><button onclick="get5()" id="five"> 5 </button> </div>   
+</div>
+
+
+ <button onclick="get6()" id="summit"> <div id="orange" >  <b>Submit</b></div></button> 
+
+  </div>
+  </div>
+ </div>
+
+  
+  You selected  out of 5
+
+  Thank you!
+
+  We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch!
+
+  
+  <script>
+    function get1() {
+      document.getElementById("one").style.backgroundColor = "hsl(25, 97%, 53%)";
+      document.getElementById("two").style.backgroundColor = "";
+      document.getElementById("three").style.backgroundColor = "";
+      document.getElementById("four").style.backgroundColor = "";
+      document.getElementById("five").style.backgroundColor = "";
+    
+    }
+
+    function get2() {
+      document.getElementById("two").style.backgroundColor = "hsl(25, 97%, 53%)";
+      document.getElementById("one").style.backgroundColor = "";
+      document.getElementById("three").style.backgroundColor = "";
+      document.getElementById("four").style.backgroundColor = "";
+      document.getElementById("five").style.backgroundColor = "";
+    }
+
+    function get3() {
+      document.getElementById("three").style.backgroundColor = "hsl(25, 97%, 53%)";
+      document.getElementById("two").style.backgroundColor = "";
+      document.getElementById("one").style.backgroundColor = "";
+      document.getElementById("four").style.backgroundColor = "";
+      document.getElementById("five").style.backgroundColor = "";
+    }
+
+    function get4() {
+      document.getElementById("four").style.backgroundColor = "hsl(25, 97%, 53%)";
+      document.getElementById("two").style.backgroundColor = "";
+      document.getElementById("three").style.backgroundColor = "";
+      document.getElementById("oner").style.backgroundColor = "";
+      document.getElementById("five").style.backgroundColor = "";
+    }
+
+    function get5() {
+      document.getElementById("five").style.backgroundColor = "hsl(25, 97%, 53%)";
+      document.getElementById("two").style.backgroundColor = "";
+      document.getElementById("three").style.backgroundColor = "";
+      document.getElementById("four").style.backgroundColor = "";
+      document.getElementById("one").style.backgroundColor = "";
+    }
+
+    function get6() {
+      window.location.href = "sign.html";
+    }
+  </script>
+  
+  
+</body>
+</html>
